@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/Cartonimages.jpg</ImageUrl>    
+    <AlternateText>Carton Cake</AlternateText>    
+    <Caption>Carton Cake</Caption>    
+  </Ad>
+  
+  <Ad>
+    <ImageUrl>~/images/ChristmasCake.jpg</ImageUrl>    
+    <AlternateText>Christmas Cake</AlternateText>   
+    <Caption>Christmas Cake</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/CreativeCakes.jpg</ImageUrl>
+    <AlternateText>Birth Day cakes</AlternateText>
+    <Caption>BirthDay cakes</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/CupCake.jpg</ImageUrl>
+    <AlternateText>Birth Day cakes</AlternateText>
+    <Caption>BirthDay cakes</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/fruitcake.jpg</ImageUrl>
+    <AlternateText>Birth Day cakes</AlternateText>
+    <Caption>BirthDay cakes</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/photoCake.jpg</ImageUrl>
+    <AlternateText>Birth Day cakes</AlternateText>
+    <Caption>BirthDay cakes</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/WeddingCake.jpg</ImageUrl>
+    <AlternateText>Birth Day cakes</AlternateText>
+    <Caption>BirthDay cakes</Caption>
+  </Ad>
+
+  
+  
+</Advertisements>

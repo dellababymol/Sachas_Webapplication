@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sachas_website.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+<link href="Style/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="Style/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="Style/default.css" rel="stylesheet" />
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <style type="text/css">
+        .auto-style1 {
+            right: 0;
+            top: 2em;
+            width: 998px;
+            height: 24px;
+        }
+        .auto-style2 {
+            right: -2px;
+            top: 2em;
+            width: 997px;
+            height: 13px;
+        }
+        .auto-style3 {
+            margin-left: 911px;
+        }
+        .auto-style4 {
+            margin-left: 867px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="formmaster" runat="server">
+<div id="wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+		</div>
+        <div id="menu1" class="auto-style1" style= text-align:right>
+            <ul>
+                <li class="auto-style3"><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Account/Login.aspx" >Login</asp:HyperLink></li>
+                <li class="auto-style4"><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Account/Register.aspx" >Register</asp:HyperLink></li>
+                 <li class="auto-style4">
+                     <asp:Button ID="btnSignOut" runat="server" OnClick="btnSignOut_Click" Text="SignOut" Visible="False" />
+
+                 </li>
+                <li><asp:Label ID="lbluser" runat="server" Text="Welcome" Visible="False"></asp:Label>
+                    <asp:Label ID="lblUserName" runat="server" Text="Label" Visible="False"></asp:Label></li>
+            </ul>
+        </div>
+		<div id="menu" class="auto-style2">
+			<ul>				
+                <li class="current_page_item"> <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="Home.aspx" >Home</asp:HyperLink></li>			
+                <li class="current_page_item"> <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="About us.aspx" >About us</asp:HyperLink></li>
+                <li class="current_page_item"> <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Contact us.aspx" >Contact Us</asp:HyperLink></li>
+                     <li class="current_page_item"> <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="Contact us.aspx" >Careers</asp:HyperLink></li>
+                <li class="current_page_item"> <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Products/Cart.aspx">Cart</asp:HyperLink></li>	
+								
+			</ul>
+		</div>
+			
+    
+      
+	</div>
+	<div id="banner">
+		<div class="container">
+			<div class="title">
+				<h2>SACHAS CAKE</h2>
+				<span class="byline">Handmade from scratch with only the finest natural ingredients</span> </div>
+           
+			<ul class="actions">		
+
+                <li><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Products/Products.aspx" Font-Size="30px" >PRODUCTS</asp:HyperLink></li>
+			</ul>
+		</div>
+	</div>
+	<div id="extra" class="container">
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>     
+	</div>  
+</div>
+<div id="copyright" class="container">
+	<p>Sachas Cake <br/> Call us at 0800 337 737 <br/> bakehouse@sachas.co.nz</p>
+</div>
+    </form>
+</body>
+</html>
+
